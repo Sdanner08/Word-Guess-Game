@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://media.npr.org/assets/img/2016/05/16/istock_000068588675_full_wide-08f4003d4700b3f2d1a32e208cea0988459161a1-s900-c85.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.jumbotron{
+    height: 250px;
+    text-align: center;
+    background-color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDpE1CK98n7G-dxav3p-YwVGaaP-21iMBV1FK4lY9l6ZJ5Dl7");
+    background-size: 50%;
+    background-position: 50%;
+
+    background-repeat: no-repeat;
+}
+.row {
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+h2, h3 {
+    text-align: center;
+    padding: 10px 0px;
+}
+#gem1, #gem2, #gem3, #gem4, #gem5,#gem6{
+    margin-left: 50px;
+    float: left;
+    padding: 10px 20px;
+}
+#gauntlet{
+clear: both;
+padding-bottom: 10px;
+margin-left: 400px;
+}
+#winImage{
+    margin-top: -900px;
+    padding: 100px 250px; 
+ 
+}
+#lossImage{
+    position: relative;
+    margin-top: -900px;
+    padding: 0px 250px;
+}
+#button{
+    background-color: green;
+
+}

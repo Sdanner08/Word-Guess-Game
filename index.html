@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+	
+	<!-- Bootstrap CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1></h1>
+			<p></p>
+		</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="panel-title">Word to Guess</h3>
+		</div>
+		<div class="col-md-12">
+			<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+		</div>
+	</div>
+	 <br>
+	<div class="row">
+	 	<div class="col-md-6">
+	 		Wrong Guesses: <span id="wrongGuesses"></span>
+		</div>
+		<div class="col-md-6">
+				Guesses Left: <span id="numGuesses"></span>
+			</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-6">
+			Win Counter: <span id="winCounter">0</span>
+		</div>
+		<div class="col-md-6">
+			Loss Counter:  <span id="lossCounter">0</span>
+		</div>
+	</div>
+    <div class="col-md-12">
+            <div id="gem1"><img src="assets/images/stone1.png" width="50px";></div>
+            <div id="gem2"><img src="assets/images/stone2.png" width="50px";></div>
+            <div id="gem3"><img src="assets/images/stone3.png" width="50px";></div>
+            <div id="gem4"><img src="assets/images/stone4.png" width="50px";></div>
+            <div id="gem5"><img src="assets/images/stone5.png" width="50px";></div>
+            <div id="gem6"><img src="assets/images/stone6.png" width="50px";></div>
+        </div>
+        <div>
+			<div class="col-md-12">
+				<div id="gauntlet"><img src="assets/images/InfinityGauntlet.png" width="250px";></div>
+			</div>
+			<div class="col-md-12">
+			<div id="lossImage">
+				<img src="assets/images/snap.png">
+				<input id="button" type="button" onclick="reset()" value="Use Time Stone to Try again">
+			</div>
+			</div>
+			<div class="col-md-12">
+					<div id="winImage">
+						<img src="assets/images/win3.png" width="700px";>
+						<input id="button" type="button" onclick="reset()" value="Use Time Stone to Try again">
+					</div>
+					</div>
+    	</div>
+	
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
